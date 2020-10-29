@@ -1,0 +1,162 @@
+.playbtn img{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.playbtn img:hover{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(109, 6, 6);
+}
+.logo{
+  font-style: oblique;
+  color: red;
+  font-size: 100px;
+  position: fixed;
+  top: 10%;
+  left: 34%;
+  text-align: center;
+}
+.logo span{
+ color: yellow;
+}
+                /*-------------------------------------------------------Login page---------------------------------------------------*/
+.form-box{
+width: 380px;
+height: 480px;
+position: relative;
+margin: 6% auto;
+background: #5C261C;
+padding: 5px;
+overflow: hidden;
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 1px 2px black;
+}
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+::-webkit-input-placeholder{
+  color: #DFC8BC;
+}
+#btn{
+top: 0;
+left: 0;
+position: absolute;
+width: 110px;
+height: 100%;
+background: yellowgreen;
+transition: .5s;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #F0B27A;
+  outline: none;
+  color: white;
+  background: transparent;
+}
+
+.submit-btn1{
+  width: 100%;
+  padding: 10px 100px;
+  cursor: pointer;
+  display: block;
+  margin-top: 68%;
+  background: yellowgreen;
+  border: 0;
+  outline: none;
+}
+.submit-btn2{
+  width: 100%;
+  padding: 10px 100px;
+  cursor: pointer;
+  display: block;
+  margin-top: 34%;
+  background: yellowgreen;
+  border: 0;
+  outline: none;
+}
+
+
+.submit-btn1:hover,
+.submit-btn2:hover{
+  background-color: #212F3D;
+}
+.check-box{
+margin: 30px 10px 30px 0;
+}
+.span{
+    color: #212F3D;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute; 
+}
+#login1{
+left:50px;
+}
+#register{
+  left: 450px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 50px;
+}
+/*------------------------------------------------------------------------login page ended---------------------------------------------------------------------*/
+
