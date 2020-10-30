@@ -1,39 +1,65 @@
 .playbtn img{
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
   padding-left: 2%;
   padding-right: 2%;
   position: fixed;
-  top: 60%;
-  left: 50%;
+  top: 27%;
+  left: 82%;
   transform: translate(-50%, -50%);
   }
 
 .playbtn img:hover{
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   border-radius: 50%;
   padding-left: 2%;
   padding-right: 2%;
   position: fixed;
-  top: 60%;
-  left: 50%;
+  top: 27%;
+  left: 82%;
   transform: translate(-50%, -50%);
   background: rgb(109, 6, 6);
 }
-.logo{
-  font-style: oblique;
-  color: red;
-  font-size: 100px;
+
+.instructions{
+
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
   position: fixed;
   top: 10%;
-  left: 34%;
+  left: 36%;
+
+}
+.burger{
+
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+  position: fixed;
+  top: 40%;
+  left: 65%;
+
+}
+.logo{
+  
+  font-family: Times, Times New Roman, serif;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 100px;
+  position: fixed;
+  top: 20%;
+  left: 10%;
   text-align: center;
 }
-.logo span{
- color: yellow;
-}
+
                 /*-------------------------------------------------------Login page---------------------------------------------------*/
 .form-box{
 width: 380px;
