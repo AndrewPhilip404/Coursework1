@@ -5,7 +5,7 @@
   padding-left: 2%;
   padding-right: 2%;
   position: fixed;
-  top: 60%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
@@ -17,17 +17,18 @@
   padding-left: 2%;
   padding-right: 2%;
   position: fixed;
-  top: 60%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgb(109, 6, 6);
 }
 .logo{
-  font-style: oblique;
+  
+  font-family: "Calistoga", serif;
   color: red;
-  font-size: 100px;
+  font-size: 85px;
   position: fixed;
-  top: 10%;
+  top: 3%;
   left: 34%;
   text-align: center;
 }
