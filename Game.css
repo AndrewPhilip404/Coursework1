@@ -1,0 +1,10 @@
+
+  .background {
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 600px;
+    margin-left: 30%;
+    margin-bottom: 1px;
+    border: 10px solid white;
+}
