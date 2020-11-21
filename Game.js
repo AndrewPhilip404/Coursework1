@@ -15,3 +15,39 @@ burger.style.height = "70px";
 gameover.style.top = 150;
 gameover.style.left = 150
 
+
+//keyboard Keys
+document.onkeydown = function() {
+    switch (window.event.keyCode) {
+        case 37:
+            moveleft(player);
+            break;
+        case 39:
+            moveright(player);
+			break;
+
+    }
+};
+
+//function for movement
+
+
+function moveright(element) {
+
+    function frame() {
+        left = left + 20
+        element.style.left = left + 'px'
+        clearInterval(id)
+    }
+    var id = setInterval(frame, 4)
+}
+
+function moveleft(element) {
+  
+    function frame() {
+        left = left - 20 
+        element.style.left = left + 'px'
+        clearInterval(id)
+    }
+	var id = setInterval(frame, 4) 
+}
