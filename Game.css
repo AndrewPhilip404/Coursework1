@@ -1,5 +1,5 @@
 
-  .background {
+.background {
 	position: relative;
 	overflow: hidden;
 	width: 600px;
@@ -70,8 +70,26 @@ button {
     border: oldlace;
     color: white;
     font-size: 15px; 
+    margin-top: 5%;
     border-radius: 10%;
     outline: none;
     background-color: #202831;
 }
 
+button:hover {
+
+    background-color: rgb(223, 79, 54);
+}
+
+#score {
+    color: red;
+}
+
+#gameover {
+    margin: 50;
+    font-size: 50px;
+}
+
+#gameover{
+  position: absolute; 
+}
