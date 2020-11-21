@@ -44,3 +44,34 @@ td {
     margin-left: 40%;
     text-align: center;
 }
+.burger img {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	margin: 0px;
+	text-align: center;
+}
+
+.player img {
+   	position: absolute;
+	width: 110px;
+	height: 110px;
+	margin: 0px;
+	text-align: center;
+
+
+}
+
+button {
+
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border: oldlace;
+    color: white;
+    font-size: 15px; 
+    border-radius: 10%;
+    outline: none;
+    background-color: #202831;
+}
+
