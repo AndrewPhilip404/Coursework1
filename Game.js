@@ -51,3 +51,19 @@ function moveleft(element) {
     }
 	var id = setInterval(frame, 4) 
 }
+function move(){ 
+
+	var top = 0
+
+        if (top == 700) {
+            clearInterval(id);
+            document.getElementById("gameover").innerHTML="GAME OVER";
+		}
+
+
+
+var score = 0
+function updateScore() {
+    score++
+    document.getElementById("score").innerHTML=score;
+}
