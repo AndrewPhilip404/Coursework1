@@ -3,7 +3,8 @@ var burger    = document.getElementById('burger'),
     player     = document.getElementById('player'),
     background     = document.getElementById('background'),
     gameover  = document.getElementById('gameover')
-
+var burgerImg = burger.getBoundingClientRect(),
+    playerImg = player.getBoundingClientRect()
 
 var left = 10;
 player.style.left = 10;
