@@ -1,4 +1,4 @@
-//initializing objects
+//initializing variable
 var burger    = document.getElementById('burger'),
     player     = document.getElementById('player'),
     background     = document.getElementById('background'),
@@ -25,17 +25,19 @@ document.onkeydown = function() {
         case 39:
             moveright(player);
 			break;
-
+		case 13, 32:
+			start;
+			break;
     }
 };
 
 //function for movement
-// to start the game again
+
 function start(){    
     
     move()
 }
-// to move the player to right
+
 function moveright(element) {
 
     function frame() {
@@ -45,7 +47,7 @@ function moveright(element) {
     }
     var id = setInterval(frame, 4)
 }
-// to move the player to left
+
 function moveleft(element) {
   
     function frame() {
@@ -55,7 +57,7 @@ function moveleft(element) {
     }
 	var id = setInterval(frame, 4) 
 }
-// initializing the size of the burger
+
 var size = ['45px', '50px', '60px', '70px', '80px', '90px', '100px']
 
 function move(){ 
@@ -66,16 +68,16 @@ function move(){
         burger.style.top = top + 'px'
         var burgerImg = burger.getBoundingClientRect(),
             playerImg = player.getBoundingClientRect()
-        if (burger.style.top === '460px' && burgerImg.right > playerImg.left && burgerImg.left < playerImg.right) { 
-            clearInterval(id) 
+        if (burger.style.top === '460px' && burgerImg.right > playerImg.left && burgerImg.left < playerImg.right) {
+            clearInterval(id)
             updateScore()
             burger.style.top = 10;
-            burger.style.left = Math.floor((Math.random() * 390) + 5); // randomizing the burger size and the place it will fall
+            burger.style.left = Math.floor((Math.random() * 390) + 5);
             burger.style.width = size[Math.floor(Math.random()*size.length)];
 
             move()
         }
-        if (top == 700) { // if the burger reaches height 700 then game will be over
+        if (top == 700) {
             clearInterval(id);
             document.getElementById("gameover").innerHTML="GAME OVER";
             score=0
@@ -92,7 +94,6 @@ function move(){
 
 }
 
-// update the score 
 var score = 0
 function updateScore() {
     score++
