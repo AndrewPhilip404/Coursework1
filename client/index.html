@@ -31,9 +31,7 @@
    <div class="burger">
     <img src="burger.png" align = "center" width = 440px height = 280px>
    </div>
-   <div class="instructions">
-     <img src="instructions.png" align = "center" width = 360px height = 450px>
-   </div>
+
    <div class="playbtn">
 <img src="play_button.png" onclick="document.getElementById('id01').style.display='block'" alt="play" align = "center" width = 50% height = 50%>
      <div id="id01" class="modal">
@@ -45,15 +43,15 @@
       <button type="button" class="toggle-btn" onclick="login()">Log In</button>
       <button type="button" class="toggle-btn" onclick="register()">Register</button>
     </div>
-     <form id="login1" class="input-group">
-       <input type="text" class="input-field" placeholder="User Id"  required>
-       <input type="password" class="input-field"  placeholder="Password">
+     <form id="login1" class="input-group"> <!--for login -->
+       <input type="text" class="input-field" placeholder="User Id" required>
+       <input type="password" class="input-field" placeholder="Password">
        <button type="submit" class="submit-btn1">Log in</button>
      </form>
-     <form id="register" class="input-group" action ="game.php" method = "post">
-       <input type="text" class="input-field" placeholder="User Id" name = "name" required>
-       <input type="password" class="input-field" placeholder="Password" name = "password" required>
-       <button type="submit" class="submit-btn2" name = "signup" value = "signup"><a href = "Game.html">Register</a></button>
+     <form id="register" class="input-group"><!--for register -->
+       <input type="text" class="input-field" placeholder="User Id" required>
+       <input type="password" class="input-field" placeholder="Password">
+       <button type="submit" class="submit-btn2">Register</button>
      </form>
    </div>
  </div>
@@ -82,27 +80,3 @@ function login(){
 </script>
 </body>
 </html>
-<?php 
-
-$db=mysqli_connect("localhost","root","","sandwich") or die (mysql_error());
-
-if(isset($_POST['signup']))
-{
-   $name = $_POST['name'];
-   $password = $_POST['password'];
-   $query = "INSERT INTO log_in(user,password) VALUES ('$name','$password')";
-   if($name==''){
-      echo "<script>alert ('please enter the user name')</script>";
-      exit();
-      }
-   if($password=='') {
-      echo "<script>alert ('please enter the password')</script>";
-      exit();
-      }
-else{
-   if(mysqli_query($db,$query)){
-     
-   }
-}
-}
-?>

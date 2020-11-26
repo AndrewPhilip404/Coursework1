@@ -120,7 +120,7 @@ transition: .5s;
   padding: 10px 100px;
   cursor: pointer;
   display: block;
-  margin-top: 68%;
+  margin-top: 34%;
   background: yellowgreen;
   border: 0;
   outline: none;
@@ -135,7 +135,6 @@ transition: .5s;
   border: 0;
   outline: none;
 }
-
 
 .submit-btn1:hover,
 .submit-btn2:hover{
