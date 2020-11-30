@@ -14,11 +14,11 @@ The trailer :
 https://www.youtube.com/watch?v=LCMXY476sZI
 
 The group memebers:
-Taniya Rizwan
-Mahek Harwani
-Syed Ahmed Kabeer
-Aachal Hitesh Davey
-Daniel Archinike Marcus
+1)Taniya Rizwan
+2)Mahek Harwani
+3)Syed Ahmed Kabeer
+4)Aachal Hitesh Davey
+5)Daniel Achinike Marcus
 
 
 
