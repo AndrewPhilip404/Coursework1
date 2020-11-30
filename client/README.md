@@ -6,5 +6,19 @@ The player who first drops the item away from the stack loses or the one to stac
 
 Added the mock-up page. (2020-10-22 (1).png)
 
+The game link :
+http://tastytowers.epizy.com/client/index.php
+
+The trailer :
+
+https://www.youtube.com/watch?v=LCMXY476sZI
+
+The group memebers:
+Taniya Rizwan
+Mahek Harwani
+Syed Ahmed Kabeer
+Aachal Hitesh Davey
+Daniel Archinike Marcus
+
 
 
